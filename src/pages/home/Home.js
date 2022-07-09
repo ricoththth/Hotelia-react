@@ -1,17 +1,26 @@
-import './Home.css'
-import { Link } from 'react-router-dom';
+import React from 'react'
+import Banner from "../../components/header-home/HeaderHome"
+import FormHome from '../../components/form-home/FormHome'
+import Navbar from '../../components/navbar/Navbar'
+import Description from '../../components/description/Description'
+import Varietyrooms from '../../components/variety/Varietyrooms'
+import Service from '../../components/services/Service'
+import Foodhome from '../../components/food/Foodhome'
+import Footer from '../../components/Footer/Footer'
 
 function Home() {
-    return (
-        <div className='main-container-Home'>
-            <div className='btn-container-home'>
-                <Link to="/Circulo"><button className='btn-figure circulo'>Circulo</button></Link> 
-                <Link to="/Cuadrado"><button className='btn-figure cuadrado'>Cuadrado</button></Link> 
-                <Link to="/Rectangulo"><button className='btn-figure rectangulo'>Rectangulo</button></Link> 
-                <Link to="/Triangulo"><button className='btn-figure triangulo'>Triangulo</button></Link> 
-            </div>
-        </div>
-    );
+  return (
+    <div>
+      <Navbar/>
+      <Banner/>
+      <FormHome/>
+      <Description/>
+      <Varietyrooms/>
+      <Service/>
+      <Foodhome/>
+      <Footer/>
+    </div>
+  )
 }
 
-export default Home;
+export default Home

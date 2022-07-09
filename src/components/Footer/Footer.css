@@ -1,0 +1,22 @@
+.sections-footer{
+    background-color: #009FE3;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+}
+.menu-footer{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 2%;
+}
+.menu-footer input{
+    background-color: transparent;
+    border-color: rgb(237, 142, 108);
+    margin-top: 16px;
+    
+}
