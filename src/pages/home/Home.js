@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from "../../components/header-home/HeaderHome"
-import FormHome from '../../components/form-home/FormHome'
+import FormHome from "../../components/form-home/FormHome"
 import Navbar from '../../components/navbar/Navbar'
 import Description from '../../components/description/Description'
 import Varietyrooms from '../../components/variety/Varietyrooms'
