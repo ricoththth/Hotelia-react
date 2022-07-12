@@ -1,5 +1,7 @@
 import React from 'react'
 import "./HeaderHome.css"
+import { Link } from "react-router-dom";
+
 
 function HeaderHome() {
   return (
@@ -8,7 +10,7 @@ function HeaderHome() {
             <h3>Bienvenidos a</h3>
             <h1>Hotelia</h1>
             <h2>Encuentra las mejores habitaciones</h2>
-            <button>Reserva</button>
+            <Link to="/habitaciones"><button> Reserva</button></Link>
         </div>
     </div>
   )

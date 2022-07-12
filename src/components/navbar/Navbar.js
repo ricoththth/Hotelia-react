@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <section className='navbarcont'>
       <div className='logo'>
-      <img src="https://i.postimg.cc/Z5JQdkCT/logo2.png" alt='logo azul con campana y nombre de Hotellia'/>
+      <img src="https://i.postimg.cc/Z5JQdkCT/logo2.png" alt='logo azul con campana y nombre de Hotellia' className='navbarimage'/>
       </div>
       <div className='contenido'>
         <div className='arriba'>

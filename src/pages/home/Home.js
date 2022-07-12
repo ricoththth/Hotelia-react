@@ -13,7 +13,6 @@ function Home() {
     <div>
       <Navbar/>
       <Banner/>
-      <FormHome/>
       <Description/>
       <Varietyrooms/>
       <Service/>
