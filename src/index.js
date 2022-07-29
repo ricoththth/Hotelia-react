@@ -4,7 +4,7 @@ import { BrowserRouter  ,Route  , Routes } from 'react-router-dom';
 import './index.css';
 import Home from './pages/home/Home';
 import Reserva from './pages/Reserva'
-import Habitaciones from './pages/home/Habitaciones.jsx';
+import Habitaciones from './pages/Rooms/Habitaciones.jsx';
 import '@progress/kendo-theme-default/dist/all.css';
 
 

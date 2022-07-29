@@ -10,7 +10,7 @@
     width: 30%;
     font-family: 'Raleway', sans-serif;
 }
-.description-home p{
+.description-home h2{
     color: #FF820D;
 }
 .description-home h6{
@@ -28,4 +28,60 @@
 .icons-home {
     text-align: center;
     display: flex;
-margin-right: 10px;}
+    margin-right: 10px;}
+
+.lineadeicons{
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .content-home{
+        margin-top: 20px;
+        margin-bottom:40px ;
+    }
+    .image-home{
+        width: 40%;
+    }
+    .image-home img{
+        width: 100%;
+        margin-left: 2%;
+    }
+    .description-home{
+        padding-left:15px;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+    }
+    .description-home h2{
+        color: #FF820D;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .description-home h6{
+        color: #000000;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 0%;
+    }
+    .description-home h4{
+        color: #000000;
+        font-weight: 600;
+        margin-top: 0%;
+        font-size: 10px;
+        display: none;
+    }
+    /*ICONOS*/
+    .icons-home {
+        text-align: center;
+        display: flex;
+        margin-right: 10px;}
+    .fa-solid {
+        width: 1px;
+    }
+    .text-icons{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .number-icons{
+        margin: 0%;
+        text-align: center;
+    }
+}

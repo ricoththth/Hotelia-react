@@ -13,3 +13,4 @@ function Habitaciones() {
 }
 
 export default Habitaciones
+
