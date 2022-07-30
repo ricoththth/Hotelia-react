@@ -14,7 +14,6 @@
 }
 .text{
     width: 30%;
-
 }
 .text h3{
     font-family: 'Roboto Serif', serif;
@@ -28,4 +27,30 @@
 }
 .card{
     margin-left: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .text h3{
+        font-family: 'Roboto Serif', serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .text p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .text{
+        width: 80%;
+    }
+    .card img{
+        width: 160px;
+        margin-left: 0%;
+    }
 }

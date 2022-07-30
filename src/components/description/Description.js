@@ -18,28 +18,28 @@ function Description() {
                         <section className='lineadeicons'>
 
 
-                        <div>
+                        <div className='description-section'>
                         <div className='icons-home'>
                         <i class="fa-solid fa-building fa-2x"/> 
                         </div> 
-                        <h5 className='number-icons'>60</h5>
-                        <p className='text-icons'>habitaciones</p>
+                        <h5 className='number-icons'>+ 35</h5>
+                        <p className='text-icons'>Cuartos</p>
                         </div>
 
-                        <div>
+                        <div className='description-section'>
                         <div className='icons-home'>
                         <i class="fa-solid fa-face-smile fa-2x"/> 
                         </div>
-                        <h5 className='number-icons'>60</h5>
-                        <p className='text-icons'>habitaciones</p>
+                        <h5 className='number-icons'>★★★★★</h5>
+                        <p className='text-icons'>Comodidad</p>
                         </div>
 
-                        <div>
+                        <div className='description-section'>
                         <div className='icons-home'>
-                        <i class="fa-solid fa-wifi fa-2x"/> 
+                        <i className='fa-solid fa-wifi fa-2x'/> 
                         </div>
-                        <h5 className='number-icons'>60</h5>
-                        <p className='text-icons'>habitaciones</p>
+                        <h5 className='number-icons'>100Mb</h5>
+                        <p className='text-icons'>WiFi</p>
                         </div>
                         
                         </section>

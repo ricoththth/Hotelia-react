@@ -14,6 +14,9 @@ function Home() {
 
       <Banner/>
       <Description/>
+      <Varietyrooms/>
+      <Service/>
+      <Footer/>
 
     </div>
   )
