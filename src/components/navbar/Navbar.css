@@ -1,58 +1,30 @@
-
-.navbarcont{
-    display: flex;
-}
-.logo{
-    margin-top: 10px;
-    margin-left: 18px;
-    margin-right: 6px;
-}
-.contenido{
-    width: 100%;
-    margin: 0;
-}
-.arriba{
-    background-color: rgb(186, 186, 182);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    display: flex;
-    justify-content: space-around;
-    padding: 6px;
-}
-
-.abajo{
-    background-color: #009FE3;
+.container-navbar{
+    max-width: 1280px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
-    padding: 9px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    color: aliceblue;
-}
-.abajo li:hover{
-    border-bottom: whitesmoke solid 1px;
-}
-.abajo li{
-    list-style: none;
-    display: flex;
+    justify-content: space-between;
 
 }
-@media only screen and (max-width: 600px) {
-    /*.navbarimage{
-        AQUI PONER LA IMAGEN DEL FIGMA CON BASE REDONDA
-    }*/
-    .arriba{
-        width: 100%;gap: 6.5rem;
-        font-size: 14px;
-        padding: 8px;
-    }
-    .abajo{
-        width: 100%;
-        padding: 12px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
-        color: aliceblue;
+.menu-navbar a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    margin: 3px;
+}
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #009FE3;
+    padding: 0px 32px;
+    border-bottom: 3px solid #0373a4;
+
+}
+.logo-navbar{
+width: 30%;
+}
+@media screen and (max-width: 768px){
+    .menu-navbar a {
+        font-size: 12px;
     }
 }

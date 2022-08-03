@@ -1,10 +1,14 @@
 import React from 'react'
+import Navbar from '../components/navbar/Navbar'
+import Filtersroom from '../components/reservarooms/Filtersroom'
+
 
 function Reserva() {
   return (
-    <div>
-        
-    </div>
+<div>
+  <Navbar/>
+  <Filtersroom/>
+</div>
   )
 }
 

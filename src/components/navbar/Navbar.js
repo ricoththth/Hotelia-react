@@ -1,19 +1,31 @@
 import React from 'react'
 import "../navbar/Navbar.css"
+import "../navbar/logic"
+import { Link } from 'react-router-dom';
+
+
 
 function Navbar() {
   return (
-    <section className='navbarcont'>
-      <div className='logo'>
-      </div>
-      <div className='contenido'>
-        <div className='abajo'>
-            <li>Inicio</li>
-            <li>Habitaciones</li>
-            <li>Contactanos</li>
+    <section>
+
+
+      <nav>
+        <div className='container-navbar'>
+          <div>
+            <img src="https://i.im.ge/2022/08/03/FCY9Ir.LOGOBACKGROUNDWHITEROUND.png" className='logo-navbar' />
+          </div>
+
+          <div className='menu-navbar'>
+            <a href='/'>Inicio</a>
+            <a href='/habitaciones'>Habitaciones</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </nav>
+
+
+
+    </section >
   )
 }
 
